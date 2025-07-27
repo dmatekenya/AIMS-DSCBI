@@ -1,11 +1,11 @@
 # Book settings
 title:
-author: Development Data Group
-logo: docs/images/logo.png
+author: Dunstan Matekenya
+logo: docs/images/logo-aims.png
 only_build_toc_files: false
 
 repository:
-  url: https://github.com/worldbank/template
+  url: https://github.com/dmatekenya/AIMS-DSCBI
   branch: main
 
 #######################################################################################
