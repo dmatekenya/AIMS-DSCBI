@@ -3,28 +3,28 @@ root: README
 
 parts:
 - caption: Course Requirements
-    chapters:
-      - file: docs/course-requirements/precourse-checklist
-      - file: docs/course-requirements/learning-python
-      - file: docs/course-requirements/python-environment
-      - file: docs/course-requirements/data-science
-      - file: docs/course-requirements/platforms
-  
+  chapters:
+    - file: docs/course-requirements/precourse-checklist
+    - file: docs/course-requirements/learning-python
+    - file: docs/course-requirements/python-environment
+    - file: docs/course-requirements/data-science
+    - file: docs/course-requirements/platforms
+
 - caption: Curriculum
-    numbered: True
-    chapters:
-      - file: docs/modules/module1_python_foundations.md
-      - file: docs/modules/module2_data_analysis.md
-      - file: docs/modules/module3_spatial_data.md
-      - file: docs/modules/module4_time_series.md
-      - file: docs/modules/module5_databases_apis.md
-      - file: docs/modules/module6_machine_learning.md
-      - file: docs/modules/module7_nlp_llms.md
-      - file: docs/modules/module8_capstone_project.md
-  
+  numbered: True
+  chapters:
+    - file: docs/modules/module1_python_foundations.md
+    - file: docs/modules/module2_data_analysis.md
+    - file: docs/modules/module3_spatial_data.md
+    - file: docs/modules/module4_time_series.md
+    - file: docs/modules/module5_databases_apis.md
+    - file: docs/modules/module6_machine_learning.md
+    - file: docs/modules/module7_nlp_llms.md
+    - file: docs/modules/module8_capstone_project.md
+
 - caption: Notebooks by Module
-    chapters:
-      - file: /notebooks/README.md
-      - file: /notebooks/module-2/01-pands-basics.ipynb
-      - file: /notebooks/module-2/02-data-processing-with-pandas.ipynb
-      - file: /notebooks/module-2/03-stats-analysis-with-python.ipynb
+  chapters:
+    - file: notebooks/README.md
+    - file: notebooks/module-2/01-pandas-basics.ipynb
+    - file: notebooks/module-2/02-data-processing-with-pandas.ipynb
+    - file: notebooks/module-2/03-stats-analysis-with-python.ipynb
