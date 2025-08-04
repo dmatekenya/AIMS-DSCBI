@@ -2,6 +2,12 @@
 __pycache__/
 *.py[cod]
 
+# Entire Data folder 
+data/
+
+# Ignore only the slides folder inside docs
+docs/slides/
+
 # C extensions
 *.so
 

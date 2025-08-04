@@ -2,29 +2,27 @@ format: jb-book
 root: README
 
 parts:
-  - caption: Examples
+  - caption: Course Modules
     numbered: True
     chapters:
-      - file: notebooks/world-bank-api.ipynb
-      - file: notebooks/world-bank-package.ipynb
-      - file: notebooks/nasa-apod.ipynb
-      - file: notebooks/bibliography.ipynb
-  - caption: Recommended Workflows
+      - file: docs/modules/module1_python_foundations.md
+      - file: docs/modules/module2_data_analysis.md
+      - file: docs/modules/module3_spatial_data.md
+      - file: docs/modules/module4_time_series.md
+      - file: docs/modules/module5_databases_apis.md
+      - file: docs/modules/module6_machine_learning.md
+      - file: docs/modules/module7_nlp_llms.md
+      - file: docs/modules/module8_capstone_project.md
+  - caption: Course Requirements
+    chapters:
+      - file: docs/course-requirements/precourse-checklist
+      - file: docs/course-requirements/learning-python
+      - file: docs/course-requirements/python-environment
+      - file: docs/course-requirements/data-science
+      - file: docs/course-requirements/platforms
+  - caption: Datasets
     chapters:
       - file: docs/folders-and-naming
       - file: docs/git-workflows
       - file: docs/notebooks-workflows
       - file: docs/presenting-results
-  - caption: Gallery
-    chapters:
-      - file: docs/gallery
-  - caption: Additional Resources
-    chapters:
-      - url: https://datapartnership.org
-        title: Development Data Partnership
-      - url: https://wbdatalab.org
-        title: World Bank Data Lab
-      - url: https://www.worldbank.org/en/about/unit/unit-dec
-        title: World Bank DEC
-      - url: https://www.worldbank.org/en/research/dime
-        title: World Bank DIME
