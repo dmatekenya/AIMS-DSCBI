@@ -1,0 +1,2 @@
+# Datasets
+Information about datasets which will be used thrpugh the course for practice. We categorise the datasets into the following categories: population and demographics; GIS/Spatial Data; Financial Access and Inclusion. 
