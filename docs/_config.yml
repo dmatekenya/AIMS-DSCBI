@@ -34,7 +34,7 @@ execute:
 #######################################################################################
 # Bibliography settings
 bibtex_bibfiles:
-  - docs/bibliography.bib
+  - bibliography.bib
 
 #######################################################################################
 # Sphinx settings
