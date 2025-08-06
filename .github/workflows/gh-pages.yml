@@ -23,8 +23,36 @@ jobs:
       - name: Build Jupyter Book Documentation
         run: |
           cd docs
-          touch .nojekyll
           ln -sf ../notebooks .
+          # Create module markdown files
+          mkdir -p notebooks
+          echo '# Module 1: Python Foundations
+
+This module covers the fundamentals of Python programming for data science.
+
+## Contents
+
+- Assignment 1
+- Assignment 1 Solutions' > notebooks/module1.md
+
+          echo '# Module 2: Data Analysis
+
+This module covers data analysis techniques using pandas and other Python libraries.
+
+## Contents
+
+- Pandas Basics
+- Data Processing with Pandas
+- Statistical Analysis with Python' > notebooks/module2.md
+
+          echo '# Module 3: Spatial Data
+
+This module covers working with spatial data in Python.
+
+## Contents
+
+- Assessment Instructions' > notebooks/module3.md
+          
           jupyter-book build . --verbose
           cp .nojekyll _build/html/
       - name: Upload artifact
