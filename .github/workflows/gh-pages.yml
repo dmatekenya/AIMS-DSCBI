@@ -20,9 +20,15 @@ jobs:
           cache: "pip"
       - name: Install Dependencies
         run: |
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          if [ -f pyproject.toml ]; then pip install ".[docs]"; fi
-          pip install jupyter-book
+          pip install -U pip
+          pip install docutils==0.17.1
+          pip install sphinx==4.5.0
+          pip install jupyter-book==0.13.1
+          # Additional required packages
+          pip install sphinx-multitoc-numbering
+          # Skip the problematic pyproject.toml installation
+          # if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          # if [ -f pyproject.toml ]; then pip install ".[docs]"; fi
       - name: Build Jupyter Book Documentation
         run: |
           touch docs/.nojekyll

@@ -48,6 +48,15 @@ ignore-regex = '^\s*"image\/png":\s.*'
 ignore-words-list = "gost,Nd"
 
 [tool.hatch.build.targets.sdist]
+exclude = [
+    "/.github",
+    "/docs",
+    "*.md",
+    "LICENSE",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
 include = [
     "src/**/*"
 ]
