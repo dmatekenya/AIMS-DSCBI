@@ -22,6 +22,12 @@ parts:
     - file: modules/module7_nlp_llms.md
     - file: modules/module8_capstone_project.md
 
+
+- caption: Datasets
+  chapters:
+    - file: docs/datasets.md
+    
+
 - caption: Notebooks
   chapters:
     - file: notebooks/assignments/README.md
