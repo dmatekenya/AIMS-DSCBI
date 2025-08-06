@@ -24,19 +24,23 @@ parts:
 
 - caption: Notebooks
   chapters:
-    - file: notebooks/README.md
-      title: All Notebooks
-    
-    - file: notebooks/module1.md
-      title: Module 1 - Python Foundations
+    - file: notebooks/assignments/README.md
+      title: Assignments
       sections:
         - file: notebooks/assignments/mod1-assignment-1.ipynb
           title: Assignment 1
         - file: notebooks/assignments/mod1-assignment-1-solutions.ipynb
           title: Assignment 1 Solutions
-    
-    - file: notebooks/module2.md
-      title: Module 2 - Data Analysis
+
+    - file: notebooks/module-1/README.md
+      title: Module 1
+      sections:
+        - file: notebooks/module-1/01-intro-to-jupyter-notebook.ipynb
+          title: Introduction to Jupyter Notebook
+        
+
+    - file: notebooks/module-2/README.md
+      title: Module 2
       sections:
         - file: notebooks/module-2/01-pandas-basics.ipynb
           title: Pandas Basics
@@ -45,8 +49,3 @@ parts:
         - file: notebooks/module-2/03-stats-analysis-with-python.ipynb
           title: Statistical Analysis with Python
     
-    - file: notebooks/module3.md
-      title: Module 3 - Spatial Data
-      sections:
-        - file: notebooks/module-3/stc-assessment-instructions.ipynb
-          title: Assessment Instructions
