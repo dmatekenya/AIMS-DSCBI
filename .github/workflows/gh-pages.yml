@@ -21,18 +21,25 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install -U pip
-          pip install docutils==0.17.1
-          pip install sphinx==4.5.0
-          pip install jupyter-book==0.13.1
-          # Additional required packages
-          pip install sphinx-multitoc-numbering
+          # Install required Python built-in modules that might be missing in some Python builds
+          python -c "import pip; pip.main(['install', 'setuptools'])" || true
+          # Install compatible packages with correct versions
+          pip install -U docutils==0.16 sphinx==3.5.4 jupyter-book==0.10.2 sphinx-book-theme==0.0.42
+          # Additional dependencies
+          pip install -U sphinx-multitoc-numbering==0.1.3 sphinx-panels sphinx-thebe
+          pip install -U sphinx-external-toc==0.2.3
           # Skip the problematic pyproject.toml installation
           # if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           # if [ -f pyproject.toml ]; then pip install ".[docs]"; fi
       - name: Build Jupyter Book Documentation
         run: |
           touch docs/.nojekyll
-          jupyter-book build docs
+          # Debug environment
+          pip list | grep -E 'sphinx|docutils|myst|jupyter'
+          # Install any missing modules
+          pip list | grep -E 'imghdr' || pip install Pillow
+          # Build without verbose to avoid token size issues
+          jupyter-book build docs || jupyter-book build docs --config docs/_config.yml --toc docs/_toc.yml
           cp docs/.nojekyll docs/_build/html/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
