@@ -8,7 +8,9 @@ jobs:
   build-book:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      pages: write
+      id-token: write
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python
@@ -21,17 +23,27 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           if [ -f pyproject.toml ]; then pip install ".[docs]"; fi
           pip install jupyter-book
-          pip install ghp-import
-          pip list | grep -E 'jupyter|sphinx|ghp'
       - name: Build Jupyter Book Documentation
         run: |
-          cd docs
-          ln -sf ../notebooks .
-          touch .nojekyll
-          ls -la
-          jupyter-book build . --verbose
-          cp .nojekyll _build/html/
+          touch docs/.nojekyll
+          jupyter-book build docs
+          cp docs/.nojekyll docs/_build/html/
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main' && job.status == 'success'
+        with:
+          path: "docs/_build/html"
+
+  deploy-book:
+    needs: build-book
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
-        run: |
-          cd docs
-          ghp-import -n -p -f _build/html
+        id: deployment
+        uses: actions/deploy-pages@v4
