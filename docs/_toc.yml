@@ -22,8 +22,31 @@ parts:
     - file: modules/module7_nlp_llms.md
     - file: modules/module8_capstone_project.md
 
-- caption: Notebooks by Module
+- caption: Notebooks
   chapters:
-    - file: notebooks/module-2/01-pandas-basics.ipynb
-    - file: notebooks/module-2/02-data-processing-with-pandas.ipynb
-    - file: notebooks/module-2/03-stats-analysis-with-python.ipynb
+    - file: notebooks/README.md
+      title: All Notebooks
+    
+    - file: notebooks/module1.md
+      title: Module 1 - Python Foundations
+      sections:
+        - file: notebooks/assignments/mod1-assignment-1.ipynb
+          title: Assignment 1
+        - file: notebooks/assignments/mod1-assignment-1-solutions.ipynb
+          title: Assignment 1 Solutions
+    
+    - file: notebooks/module2.md
+      title: Module 2 - Data Analysis
+      sections:
+        - file: notebooks/module-2/01-pandas-basics.ipynb
+          title: Pandas Basics
+        - file: notebooks/module-2/02-data-processing-with-pandas.ipynb
+          title: Data Processing with Pandas
+        - file: notebooks/module-2/03-stats-analysis-with-python.ipynb
+          title: Statistical Analysis with Python
+    
+    - file: notebooks/module3.md
+      title: Module 3 - Spatial Data
+      sections:
+        - file: notebooks/module-3/stc-assessment-instructions.ipynb
+          title: Assessment Instructions
