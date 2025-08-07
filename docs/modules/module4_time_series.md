@@ -1,5 +1,4 @@
-# Module 4: Working with Time Series Data in Python
-
+# Module 4: Time Series
 ## Objectives
 Equip participants with practical skills to analyze and interpret time series data using Python libraries.
 

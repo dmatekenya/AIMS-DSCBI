@@ -1,4 +1,4 @@
-# Module 7: NLP and Large Language Models (LLMs)
+# Module 7: NLP and LLMs
 
 ## Objectives
 Introduce NLP concepts and LLMs, and enable building applications with modern frameworks.

@@ -21,21 +21,13 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install -U pip
-          # Install specific versions known to work together
-          pip install docutils==0.17.1 sphinx==4.5.0 jupyter-book==0.13.1
-          pip install sphinx-book-theme sphinx-togglebutton sphinx-external-toc sphinx-multitoc-numbering
-          # Skip the problematic pyproject.toml installation
-          # if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          # if [ -f pyproject.toml ]; then pip install ".[docs]"; fi
+          pip install jupyter-book
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          if [ -f pyproject.toml ]; then pip install ".[docs]"; fi
       - name: Build Jupyter Book Documentation
         run: |
           touch docs/.nojekyll
-          # Display versions for debugging
-          echo "Python version:" && python --version
-          echo "Installed packages:" && pip list | grep -E 'sphinx|docutils|jupyter'
-          # Try building with different options if one fails
-          jupyter-book build docs || jupyter-book build docs --config docs/_config.yml --toc docs/_toc.yml
-          # Ensure .nojekyll is copied
+          jupyter-book build docs
           cp docs/.nojekyll docs/_build/html/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

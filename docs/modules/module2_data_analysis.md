@@ -1,5 +1,4 @@
-# Module 2: Data Analysis with Python
-
+# Module 2: Data Analysis
 ## Objectives
 Equip participants with practical skills in performing data analysis using Python, focusing on cleaning, transforming, and exploring data using libraries like pandas and polars.
 

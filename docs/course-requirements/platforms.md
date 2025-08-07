@@ -86,5 +86,3 @@ GitHub will be used to manage project files and collaborate on code.
 
 3. **Forking and Cloning Repositories**  
    During the course, you will be working with GitHub repositories. Familiarize yourself with forking and cloning repositories to easily access course materials and project files.
-
----
