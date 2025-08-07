@@ -16,18 +16,21 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.11
+          python-version: 3.13
           cache: "pip"
       - name: Install Dependencies
         run: |
           pip install -U pip
-          pip install jupyter-book
+          pip install jupyter-book>=1.0.0 sphinx>=7.2.6 myst-parser>=2.0.0
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          if [ -f pyproject.toml ]; then pip install ".[docs]"; fi
+          # Skip pyproject.toml to avoid conflicts
+          # if [ -f pyproject.toml ]; then pip install ".[docs]"; fi
       - name: Build Jupyter Book Documentation
         run: |
           touch docs/.nojekyll
           jupyter-book build docs
+          # Ensure .nojekyll is copied to the output directory
+          cp docs/.nojekyll docs/_build/html/
           cp docs/.nojekyll docs/_build/html/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

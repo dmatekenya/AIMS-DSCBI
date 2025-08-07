@@ -1,4 +1,4 @@
-# Module 6: Introduction to Machine Learning with Scikit-learn
+# Module 6: Machine Learning
 
 ## Objectives
 Introduce classical machine learning using scikit-learn, including supervised and unsupervised learning.

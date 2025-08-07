@@ -1,4 +1,4 @@
-# Essential Python Foundations and Learning Resources 
+# Learning - Python
 To build effective and efficient applications with language models, a solid foundation in Python is essential. This section outlines the core Python skills that will support your development journey, from basic programming principles to essential tools for working with APIs and managing environments. Additionally, a curated list of free resources is provided to help you either learn or review these skills, ensuring you have the confidence and capability to maximize your work with language-based applications.
 
 ## Prerequisite Python Skills

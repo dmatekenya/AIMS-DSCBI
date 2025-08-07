@@ -1,4 +1,4 @@
-# Python Environment Configuration
+# Python Environment
 In this section, we provide the minimal Python packages required to complete the programming exercises in this course. We are saying minimal because for some of the project work, you may need extra packages
 
 ## Python Installation

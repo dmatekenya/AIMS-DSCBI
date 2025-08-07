@@ -4,14 +4,16 @@ root: index
 parts:
 - caption: Course Requirements
   chapters:
-    - file: course-requirements/precourse-checklist.md
     - file: course-requirements/learning-python.md
-    - file: course-requirements/python-environment.md
+    - file: course-requirements/python-installation.md
+      title: Python Setup
+      sections:
+        - file: course-requirements/python-environments.md
+          title: Virtual Environments
     - file: course-requirements/data-science.md
     - file: course-requirements/platforms.md
 
 - caption: Curriculum Overview
-  numbered: True
   chapters:
     - file: modules/module1_python_foundations.md
     - file: modules/module2_data_analysis.md
@@ -26,7 +28,6 @@ parts:
 - caption: Datasets
   chapters:
     - file: datasets.md
-    
 
 - caption: Notebooks
   chapters:

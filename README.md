@@ -1,9 +1,5 @@
 
-# Data Science Capacity Building Initiative (DSCBI)
-
-This repository provides information about the capacity building initiative, a collaboration between the African Institute for Mathematical Sciences (AIMS), the National Institute of Statistics of Rwanda (NISR), and [Cenfri](https://cenfri.org). The initiative aims to deliver data science training to staff from over 20 institutions that are part of Rwanda's National Statistical System (NSS).
-
-**[View the full documentation website here](https://dmatekenya.github.io/AIMS-DSCBI/)**Science Capacity Building Initiative (DSCBI)
+# Da**[View the full documentation website here](https://dmatekenya.github.io/AIMS-DSCBI/)**Science Capacity Building Initiative (DSCBI)
 
 This repository provides information about the capacity building initiative, a collaboration between the African Institute for Mathematical Sciences (AIMS), the National Institute of Statistics of Rwanda (NISR), and [Cenfri](https://cenfri.org). The initiative aims to deliver data science training to staff from over 20 institutions that are part of Rwanda's National Statistical System (NSS).
 
@@ -64,8 +60,7 @@ This repository serves as the primary resource for accessing course content, inc
 
 ## Contents
 
-```{tableofcontents}
-```
+Please visit the [documentation website](https://dmatekenya.github.io/AIMS-DSCBI/) for a complete table of contents.
 
 ## License
 

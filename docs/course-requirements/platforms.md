@@ -1,4 +1,4 @@
-# Required Platforms and Access Setup
+# Platforms and APIs
 
 To complete the course exercises and build applications effectively, you will need access to specific platforms. This document outlines the necessary accounts and API keys or tokens required for each platform, organized into three sections: **LLMs**, **Cloud Compute Platforms**, and **Other** (for additional services like Twilio and GitHub).
 

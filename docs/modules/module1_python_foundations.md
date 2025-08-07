@@ -1,4 +1,4 @@
-# Module 1: Python Foundations for Data Science
+# Module 1: Python Foundations
 
 ## Objectives
 To equip participants with a strong foundation in Python programming and modern development tools essential for data science workflows.

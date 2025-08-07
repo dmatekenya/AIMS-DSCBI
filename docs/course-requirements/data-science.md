@@ -1,5 +1,5 @@
 
-# Data Science Prerequisites
+# Learning - Data Science
 
 In this section, we outline the foundational skills and knowledge in data science, including key areas such as machine learning and natural language processing (NLP), required not only to complete exercises in this course but also to grasp and understand the core concepts of LLMs that will be taught. These prerequisites will provide the essential background needed to effectively work with LangChain and build LLM-based applications.
 

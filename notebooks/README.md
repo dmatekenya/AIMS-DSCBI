@@ -12,5 +12,4 @@ Use the navigation menu to access notebooks for each module:
 - **Module 2**: Data Analysis - Working with pandas and statistical analysis
 - **Module 3**: Spatial Data - Assessment instructions and examples
 
-```{tableofcontents}
-```
+<!-- Removing tableofcontents since this file has no indexed subsections -->

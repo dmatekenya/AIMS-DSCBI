@@ -1,4 +1,4 @@
-# Module 3: Working with Spatial Data in Python
+# Module 3: Spatial Data 
 
 ## Objectives
 Introduce participants to foundational tools and techniques for geospatial data analysis using Python.
