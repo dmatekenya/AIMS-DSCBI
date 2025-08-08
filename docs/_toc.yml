@@ -10,6 +10,7 @@ parts:
       sections:
         - file: course-requirements/python-environments.md
           title: Virtual Environments
+    - file: course-requirements/github-workflow.md
     - file: course-requirements/data-science.md
     - file: course-requirements/platforms.md
 
