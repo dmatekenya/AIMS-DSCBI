@@ -26,6 +26,14 @@ repository:
 html:
   home_page_in_navbar: false
   extra_navbar: ""
+  extra_footer: |
+    <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
+      <img src="_static/logo-aims.png" alt="AIMS Logo" style="height: 60px; margin: 0 15px;">
+      <img src="_static/logo-nisr.png" alt="NISR Logo" style="height: 60px; margin: 0 15px;">
+      <img src="_static/logo-cenfri.png" alt="Cenfri Logo" style="height: 60px; margin: 0 15px;">
+    </div>
+  extra_css:
+    - _static/custom.css
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true

@@ -3,6 +3,7 @@ root: index
 
 parts:
 - caption: Course Requirements
+  numbered: false
   chapters:
     - file: course-requirements/learning-python.md
     - file: course-requirements/python-installation.md
@@ -15,6 +16,7 @@ parts:
     - file: course-requirements/platforms.md
 
 - caption: Curriculum Overview
+  numbered: true
   chapters:
     - file: modules/module1_python_foundations.md
     - file: modules/module2_data_analysis.md
@@ -31,6 +33,7 @@ parts:
     - file: datasets.md
 
 - caption: Notebooks
+  numbered: true
   chapters:
     - file: notebooks/assignments/README.md
       title: Assignments
@@ -56,4 +59,7 @@ parts:
           title: Data Processing with Pandas
         - file: notebooks/module-2/03-stats-analysis-with-python.ipynb
           title: Statistical Analysis with Python
-    
+
+- caption: Data Use Cases
+  chapters:
+    - file: projects.md
