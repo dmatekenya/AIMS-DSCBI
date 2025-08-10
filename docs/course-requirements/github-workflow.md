@@ -1,4 +1,4 @@
-# Student GitHub Workflow Instructions
+# GitHub Workflow 
 
 ## Overview
 This document provides step-by-step instructions for working with course materials using Git and GitHub. You'll learn essential version control skills while accessing course notebooks and submitting assignments.
@@ -71,7 +71,7 @@ git push origin main
 ## Working with Course Materials
 
 ### Making Changes to Notebooks
-1. **Work directly on notebooks** in the appropriate folders with VS Code
+1. **Work directly on notebooks** in the appropriate folders in VS Code
 2. **Save your work regularly** in Jupyter or your preferred editor
 3. **Commit your changes frequently**:
    ```bash

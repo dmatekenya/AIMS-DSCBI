@@ -1,0 +1,15 @@
+.navbar-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    width: 100%;
+    gap: 20px;
+}
+
+.navbar-logo {
+    max-height: 50px;
+    max-width: 100px;
+    margin: 5px;
+    display: inline-block;
+}
