@@ -37,10 +37,12 @@ parts:
     - file: notebooks/assignments/README.md
       title: Assignments
       sections:
-        - file: notebooks/assignments/mod1-assignment-1.ipynb
+        - file: notebooks/assignments/assignment-1.ipynb
           title: Assignment 1
-        - file: notebooks/assignments/mod1-assignment-1-solutions.ipynb
+        - file: notebooks/assignments/assignment-1-solutions.ipynb
           title: Assignment 1 Solutions
+        - file: notebooks/assignments/assignment-2.ipynb
+          title: Assignment 2
 
     - file: notebooks/module-1/README.md
       title: Module 1
