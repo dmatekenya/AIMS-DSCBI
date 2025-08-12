@@ -33,7 +33,6 @@ parts:
     - file: datasets.md
 
 - caption: Notebooks
-  numbered: true
   chapters:
     - file: notebooks/assignments/README.md
       title: Assignments
