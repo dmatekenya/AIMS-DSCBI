@@ -25,5 +25,6 @@
 |21|National Institute of Statistics of Rwanda (NISR)  | Thomas Nsengiyumva <br> Kadjura Abdurahman Shema <br> Jean Bosco Dusabimana |Modernizing Rwanda’s Trade Statistics System:Enhancing Data Quality and Efficiency|To modernize Rwanda's trade statistics system by developing a Python-based automated pipeline that enhances data quality, efficiency, and reporting capabilities.|
 |22 |WASAC Utility |Elisa Iradukunda |Analyzing the Impact of Customer Complaints Patterns on Operational Efficiency at WASAC |The project aims to analyze customer complaint patterns at WASAC to identify operational inefficiencies and provide data-driven solutions for improving water service delivery and customer satisfaction |
 |23 |Rwanda Convention Bureau (RCB) |James Rushimisha |Quantifying the Economic Impact of MICE Events Using Data Science |The project aims to develop a data-driven framework to quantify the economic impact of MICE events in Rwanda, enabling evidence-based decision-making for RCB.|
+|24 |Directorate general of immigration and emigration (DGIE) |Jean Yves Bayingana <br> Jackson Tuyikunde |High level passenger travel analysis |The project uses LLMs to analyze passenger travel data, detect anomalies, generate reports, and support decision-making.|
 
 
