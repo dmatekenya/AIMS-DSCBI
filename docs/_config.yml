@@ -1,7 +1,6 @@
 # Book settings
 title: Data Science Capacity Building Initiative
 author: Dunstan Matekenya
-logo: images/logo-aims.png
 only_build_toc_files: true
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
 
