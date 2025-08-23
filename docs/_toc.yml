@@ -68,4 +68,4 @@ parts:
 - caption: Additional Resources
   numbered: false
   chapters:
-    - file: llms-and-chatbots.md
+    - file: llms-and-chatbots-guide.md
