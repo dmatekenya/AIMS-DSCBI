@@ -64,3 +64,8 @@ parts:
 - caption: Data Use Cases
   chapters:
     - file: projects.md
+
+- caption: Additional Resources
+  numbered: false
+  chapters:
+    - file: llms-and-chatbots.md
