@@ -1,0 +1,9 @@
+langchain
+langchain-community
+langchain-text-splitters
+langgraph
+langchain-openai
+langchain-core
+bs4
+typing-extensions
+notebook
