@@ -1,5 +1,6 @@
 # Building LLM Based Chatbots in Python
 *A comprehensive guide for building LLM-based chatbots*
+
 ## How to Use This Guide
 This document provides a comprehensive list of resources and suggested learning sequence for developing the knowledge and skills needed to build LLM-based chatbots. You don't need to consume everything here - instead, start with the minimum resources from each phase to get a working foundation, then selectively add more advanced materials based on your project needs and interests.
 The resources are organized by time investment (shortest first) so you can quickly identify what fits your schedule and learning goals.
@@ -16,14 +17,13 @@ The resources are organized by time investment (shortest first) so you can quick
 ### Learning Resources
 
 #### Quick Start (1-3 hours)
-- **Andrej Karpathy's "Intro to Large Language Models"** (1 hour): (here)[https://www.youtube.com/watch?v=zjkBMFhNj_g]
-- **"What are Embeddings?"** (20 min)[https://www.youtube.com/watch?v=wjZofJX0v4M]
-- **Hugging Face Transformers Quick Tour** (30 min)[https://huggingface.co/docs/transformers/quicktour]
+- **[Andrej Karpathy's "Intro to Large Language Models"](https://www.youtube.com/watch?v=zjkBMFhNj_g)** (1 hour)
+- **["What are Embeddings?"](https://www.youtube.com/watch?v=wjZofJX0v4M)** (20 min)
+- **[Hugging Face Transformers Quick Tour](https://huggingface.co/docs/transformers/quicktour)** (30 min)
 
 #### Medium Investment (4-10 hours)
-- **Hugging Face LLM Course - Chapters 1-3** (6-8 hours)[https://huggingface.co/learn/nlp-course/chapter1/1]
-- **Hugging Face LLM Course - Chapter 7** (1-2 hours)[https://huggingface.co/learn/llm-course/chapter7/2]
-
+- **[Hugging Face LLM Course - Chapters 1-3](https://huggingface.co/learn/nlp-course/chapter1/1)** (6-8 hours)
+- **[Hugging Face LLM Course - Chapter 7](https://huggingface.co/learn/llm-course/chapter7/2)** (1-2 hours)
 
 ## Phase 1.5: LLM Platforms & Model Landscape
 
@@ -37,15 +37,15 @@ The resources are organized by time investment (shortest first) so you can quick
 ### Learning Resources
 
 #### Quick Start (1-3 hours)
-- **"LLM Comparison 2025"** by AI Explained (20 min): [Complete LLM Model Comparison Guide](https://www.helicone.ai/blog/the-complete-llm-model-comparison-guide)
-- **Hugging Face Model Hub Tour** (30 min): [Hugging Face Models](https://huggingface.co/models)
-- **Ollama Model Library** (15 min): [Ollama Library](https://ollama.com/library)
+- **["LLM Comparison 2025" by AI Explained](https://www.helicone.ai/blog/the-complete-llm-model-comparison-guide)** (20 min)
+- **[Hugging Face Model Hub Tour](https://huggingface.co/models)** (30 min)
+- **[Ollama Model Library](https://ollama.com/library)** (15 min)
 
 #### Sign-up for APIs
-- **Setting up OpenAI API** (30 min): [OpenAI API Quickstart](https://platform.openai.com/docs/quickstart)
-- **Anthropic Claude API Setup** (30 min): [Anthropic API Getting Started](https://docs.anthropic.com/en/api/getting-started)
-- **Cohere API Quickstart** (30 min): [Cohere Quickstart Tutorial](https://docs.cohere.com/docs/quickstart-tutorial)
-- **Ollama Installation & Model Download** (1 hour): [Ollama](https://ollama.com/)
+- **[Setting up OpenAI API](https://platform.openai.com/docs/quickstart)** (30 min)
+- **[Anthropic Claude API Setup](https://docs.anthropic.com/en/api/getting-started)** (30 min)
+- **[Cohere API Quickstart](https://docs.cohere.com/docs/quickstart-tutorial)** (30 min)
+- **[Ollama Installation & Model Download](https://ollama.com/)** (1 hour)
 
 ### Major LLM Platforms Overview
 
@@ -89,16 +89,13 @@ This is optional but still recommended for you to understand the basics of inter
 
 ### Learning Resources
 #### Quick Start (1-3 hours)
-- **"Prompt Engineering in 15 Minutes"** by AI Explained (15 min): [Prompt Engineering Tutorial](https://www.youtube.com/watch?v=dOxUroR57xs)
-- **OpenAI Prompt Engineering Guide** (1 hour): [OpenAI Prompt Engineering](https://platform.openai.com/docs/guides/prompt-engineering)
-- **Ollama Python Basic Tutorial** (30 min): [Ollama Python Library](https://github.com/ollama/ollama-python)
-
+- **["Prompt Engineering in 15 Minutes" by AI Explained](https://www.youtube.com/watch?v=dOxUroR57xs)** (15 min)
+- **[OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)** (1 hour)
+- **[Ollama Python Basic Tutorial](https://github.com/ollama/ollama-python)** (30 min)
 
 #### Medium Investment (4-8 hours)
-- **Anthropic's Prompt Engineering Guide** (2-3 hours): [Anthropic Prompt Engineering](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
-- **DeepLearning.AI Prompt Engineering Course** (4-6 hours): [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
-
-
+- **[Anthropic's Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)** (2-3 hours)
+- **[DeepLearning.AI Prompt Engineering Course](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)** (4-6 hours)
 
 ## Phase 3: RAG (Retrieval-Augmented Generation) Fundamentals
 
@@ -111,19 +108,20 @@ This is optional but still recommended for you to understand the basics of inter
 ### Learning Resources
 
 #### Quick Start (1-4 hours)
-- **"RAG in 100 Seconds"** by Fireship (2 min): [RAG Explained](https://www.youtube.com/watch?v=T-D1OfcDW1M)
-- **Simple RAG with Ollama Tutorial** (1 hour): [LangChain Local RAG](https://python.langchain.com/docs/tutorials/local_rag/)
-- **ChromaDB Quickstart** (30 min): [ChromaDB Getting Started](https://docs.trychroma.com/getting-started)
+- **["RAG in 100 Seconds" by Fireship](https://www.youtube.com/watch?v=T-D1OfcDW1M)** (2 min)
+- **[Simple RAG with Ollama Tutorial](https://python.langchain.com/docs/tutorials/local_rag/)** (1 hour)
+- **[ChromaDB Quickstart](https://docs.trychroma.com/getting-started)** (30 min)
 
 #### Medium Investment (5-12 hours)
-- **LangChain RAG Tutorial** (4-6 hours): [LangChain Question Answering](https://python.langchain.com/docs/tutorials/rag/)
-- **Building RAG from Scratch** by Greg Kamradt (3 hours): [RAG from Scratch](https://www.youtube.com/watch?v=BrsocJb-fAo)
-- **Weaviate RAG Tutorial** (2-3 hours): [Weaviate RAG Tutorial](https://weaviate.io/developers/weaviate/tutorials/rag)
+- **[LangChain RAG Tutorial](https://python.langchain.com/docs/tutorials/rag/)** (4-6 hours)
+- **[Building RAG from Scratch by Greg Kamradt](https://www.youtube.com/watch?v=BrsocJb-fAo)** (3 hours)
+- **[Weaviate RAG Tutorial](https://weaviate.io/developers/weaviate/tutorials/rag)** (2-3 hours)
 
 ### Open Source LLM Integration
 - **Ollama Models**: llama2, mistral, codellama, vicuna
 - **Hugging Face Models**: microsoft/DialoGPT-medium, meta-llama/Llama-2-7b-chat-hf
-- **Local Model Setup**: [LangChain Ollama Integration](https://python.langchain.com/docs/integrations/llms/ollama)
+- **[Local Model Setup](https://python.langchain.com/docs/integrations/llms/ollama)**
+
 ---
 
 ## Phase 4: Tools and Frameworks by Complexity Level
@@ -155,21 +153,21 @@ Balance between ease of use and customization
 - **n8n**: Workflow automation with LLM nodes
 
 #### Learning Resources
-- **Flowise Quickstart** (30 min): https://docs.flowiseai.com/getting-started
-- **LangFlow Tutorial** (45 min): https://docs.langflow.org/
+- **[Flowise Quickstart](https://docs.flowiseai.com/getting-started)** (30 min)
+- **[LangFlow Tutorial](https://docs.langflow.org/)** (45 min)
 
 ### Code-Based Frameworks (Python)
 Maximum flexibility and customization
 
 #### Quick Start Options (2-4 hours)
-- **Streamlit + Ollama Tutorial**: https://docs.streamlit.io/knowledge-base/tutorials/llm-quickstart
-- **Chainlit Quickstart**: https://docs.chainlit.io/get-started/overview
-- **Gradio ChatInterface**: https://gradio.app/docs/#chatinterface
+- **[Streamlit + Ollama Tutorial](https://docs.streamlit.io/knowledge-base/tutorials/llm-quickstart)**
+- **[Chainlit Quickstart](https://docs.chainlit.io/get-started/overview)**
+- **[Gradio ChatInterface](https://gradio.app/docs/#chatinterface)**
 
 #### Medium Complexity (1-2 days)
-- **LangChain Python Tutorial**: https://python.langchain.com/docs/get_started/
-- **LlamaIndex Python Starter**: https://docs.llamaindex.ai/en/stable/getting_started/starter_example/
-- **Haystack Tutorial**: https://haystack.deepset.ai/tutorials
+- **[LangChain Python Tutorial](https://python.langchain.com/docs/get_started/)**
+- **[LlamaIndex Python Starter](https://docs.llamaindex.ai/en/stable/getting_started/starter_example/)**
+- **[Haystack Tutorial](https://haystack.deepset.ai/tutorials)**
 
 #### Advanced Frameworks (1+ weeks)
 - **Custom RAG with ChromaDB + Ollama**
@@ -201,8 +199,7 @@ Maximum flexibility and customization
   ```
 
 #### Professional Interfaces (4-8 hours)
-- **Chainlit** (2-4 hours): Conversational UI specifically for LLM apps
-  - Tutorial: https://docs.chainlit.io/get-started/overview
+- **[Chainlit](https://docs.chainlit.io/get-started/overview)** (2-4 hours): Conversational UI specifically for LLM apps
 - **Streamlit + Custom CSS** (4-6 hours): Enhanced styling and UX
 - **FastAPI + Jinja2 Templates** (6-8 hours): Custom web interface
 
@@ -275,10 +272,8 @@ Maximum flexibility and customization
 - **Vector database optimization**: Index tuning
 - **Load balancing**: Multiple model instances
 - **Advanced caching**: Redis, distributed caching
+
 ---
-
-
-
 
 ## Recommended 8-12-Week Project Timeline
 
@@ -286,14 +281,13 @@ Maximum flexibility and customization
 **Goal:** Understand basics of LLMs and set up tools.  
 
 - **Intro to LLMs & Chatbots**
-  - Watch Karpathy’s intro to LLMs  
+  - Watch Karpathy's intro to LLMs  
   - Read Hugging Face *Course* chapters 1–3 (up to tokenization, transformers basics)  
 - **Environment Setup**
   - Install Python, Conda/Poetry for environments  
   - Set up **Ollama** for local inference if needed
-  - Explore Streamlit “hello world” apps  
+  - Explore Streamlit "hello world" apps  
 - **Mini-Project:** Build a simple chatbot (no RAG) using Ollama + Streamlit  
-
 
 ### Phase 2 – Core NLP & RAG Concepts (Weeks 3–4)
 **Goal:** Learn retrieval fundamentals and connect them to LLMs.  
@@ -306,16 +300,13 @@ Maximum flexibility and customization
   - Store embeddings in **ChromaDB** (free, lightweight option)  
 - **Mini-Project:** Build a basic retrieval + response system with LangChain  
 
-
 ### Phase 3 – Framework Integration (Weeks 5–6)
-**Goal:** Move from “toy” scripts to structured apps.  
+**Goal:** Move from "toy" scripts to structured apps.  
 
 - **Choose a framework:** LangChain or LlamaIndex (start with LangChain for ecosystem support)  
 - **Add Conversation Memory:** Learn how to store chat history across turns  
 - **Improve Reliability:** Add error handling, logging, and configuration files  
 - **Mini-Project:** Interactive chatbot that remembers past queries  
-
-
 
 ### Phase 4 – Frontend Development (Weeks 7–8)
 **Goal:** Create a usable interface for demonstration.  
@@ -327,10 +318,8 @@ Maximum flexibility and customization
   - Basic UX: clear chat history, loading spinners, response formatting  
 - **Mini-Project:** A polished chatbot frontend that feels usable  
 
-
-
 ### Phase 5 – Advanced Features (Weeks 9–10)
-**Goal:** Make the chatbot more robust and “demo-ready.”  
+**Goal:** Make the chatbot more robust and "demo-ready."  
 
 - **Evaluation**
   - Learn basic chatbot evaluation: answer relevance, latency, failure cases  
@@ -338,8 +327,6 @@ Maximum flexibility and customization
 - **Security & Optimization**
   - Add guardrails (prompt filtering, max token limits)  
   - Experiment with faster embedding models or smaller LLMs for efficiency  
-
-
 
 ### Phase 6 – Final Polish & Deployment (Weeks 11–12)
 **Goal:** Package the chatbot for sharing and presentation.  
@@ -353,28 +340,5 @@ Maximum flexibility and customization
   - Final debugging and presentation prep  
 - **Capstone Demo:** Present a fully working RAG-based chatbot with documents of choice (e.g., PDFs, reports, FAQs).  
 
-
 ---
 
-## Additional Resources
-
-### Communities & Support
-- **Ollama Discord**: Local LLM community
-- **LangChain Discord**: Framework-specific support
-- **Hugging Face Forums**: Open source model discussions
-- **Reddit r/LocalLLaMA**: Local model enthusiasts
-
-### Open Source Datasets for Testing
-- **MS MARCO**: Question-answering dataset
-- **Natural Questions**: Real user questions
-- **Squad 2.0**: Reading comprehension dataset
-
-### Free Compute Options
-- **Google Colab**: Free GPU access (limited)
-- **Hugging Face Spaces**: Free hosting and compute
-- **Kaggle Notebooks**: Free GPU/TPU access
-
-### Local Development Setup
-- **Ollama**: Easy local LLM deployment
-- **GPT4All**: Desktop application for local models
-- **LM Studio**: GUI for running local LLMs
