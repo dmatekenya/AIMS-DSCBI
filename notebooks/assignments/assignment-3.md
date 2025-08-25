@@ -77,37 +77,30 @@ In this section, you will replicate the workflow demonstrated in the provided no
 
 ### Instructions
 
-1. **Workspace Preparation**
-   - Ensure your virtual environment is activated and all required packages are installed.
-   - Set up your workspace directories as shown in the notebook (`data/`, `src/`, etc.).
+1. **Get Updates from Course Repository**
+   - Follow instructions from GitHub Workflow
+   - Ensure you have used to pull to get updates from the course repository
 
-2. **Import Required Packages**
-   - Import all necessary Python libraries for geospatial analysis, data handling, and visualization (see the notebook for reference).
+2. **Copy Materials**
+   - assignment instructions. This is this markdown 
+   - [assignment-3-zonal-statistics notebook](https://github.com/dmatekenya/AIMS-DSCBI/blob/main/notebooks/assignments/assignment-3-zonal-stats.ipynb). Copy this notebook into your project repo. The repo you create in step-1
+   - [spatial_utils](https://github.com/dmatekenya/AIMS-DSCBI/tree/main/src/spatial_utils). Copy this module and add it to the src fodler within your repository.
 
-3. **Prepare Data Paths**
-   - Define file paths for the nightlight raster and the shapefiles for both national and cell-level boundaries.
-   - Make sure your data files are unzipped and located in the correct directories.
-
-4. **Import Custom Scripts**
-   - Add your `src/` directory to the Python path and import the custom `ZonalStatistics` class as shown in the notebook.
-
-5. **Clip the Raster**
-   - Use the provided function to clip the global nightlight raster to the Rwanda national boundary.
-   - Save the clipped raster for further analysis.
-
-6. **Visualize the Data**
-   - Load and visualize the clipped raster along with the cell boundaries to confirm the data alignment.
-
-7. **Generate Zonal Statistics**
-   - Use the `ZonalStatistics` class to calculate summary statistics (mean, median, count, sum) for each cell (admin4 region).
-   - Display and interpret the results.
-
-8. **Save and Report Results**
-   - Merge the zonal statistics with cell attribute data and save the results as a CSV file.
-   - Identify and report the cells with the highest nightlight values.
+3. **Complete Exercise**
+   - Update the **assignment-3-zonal-statistics notebook** to ensure you use correct file paths.
+   - Go through and run the notebook cells.
 
 ### Deliverables
 
 - A Jupyter notebook (.ipynb) that follows the workflow above, with clear code, comments, and outputs.
-- The resulting CSV file with zonal statistics (do not push large data files to GitHub).
-- Short written answers or markdown cells explaining your findings and any challenges encountered.
+- The resulting CSV file with zonal statistics.
+
+## Submission Instructions
+
+Please provide the following for your assignment submission:
+
+1. **GitHub Repository:** Share a link to your project repository.
+2. **Environment Verification:** Upload a screenshot of your Python environment, ensuring your terminal displays your name.
+3. **Zonal Statistics Notebook:** Submit the completed Jupyter notebook.
+4. **CSV Output:** Include a GitHub link to the CSV file containing your zonal statistics results. Although the `data/` folder is typically excluded from version control, make an exception to include this CSV file.
+
