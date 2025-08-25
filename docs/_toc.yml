@@ -43,6 +43,11 @@ parts:
           title: Assignment 1 Solutions
         - file: notebooks/assignments/assignment-2.ipynb
           title: Assignment 2
+        - file: notebooks/assignments/assignment-3.md
+          title: Assignment 3
+          sections:
+            - file: notebooks/assignments/assignment-3-zonal-stats.ipynb
+              title: Geospatial Environment
 
     - file: notebooks/module-1/README.md
       title: Module 1
