@@ -7,3 +7,4 @@ langchain-core
 bs4
 typing-extensions
 notebook
+python-dotenv
