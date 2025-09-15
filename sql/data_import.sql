@@ -6,9 +6,12 @@ COPY pop(cell_id, elderly_60, children_under5, youth_15_24, general_pop, men_202
 FROM '/Users/dmatekenya/My Drive (dmatekenya@gmail.com)/TEACHING/AIMS-DSCBI/data/tmp-db-data/population.csv'
 CSV HEADER;
 
-COPY ntl_annual FROM '/Users/dmatekenya/My Drive (dmatekenya@gmail.com)/TEACHING/AIMS-DSCBI/data/tmp-db-data/ntl-annual-2012-2024.csv' DELIMITER ',' CSV HEADER;
+COPY ntl_annual (cell_id, ntl_min, ntl_max, ntl_mean, ntl_median, ntl_sum,
+                  pixel_count, raster_filename, year)
+FROM '/Users/dmatekenya/My Drive (dmatekenya@gmail.com)/TEACHING/AIMS-DSCBI/data/tmp-db-data/ntl-annual-2012-2024.csv' 
+DELIMITER ',' CSV HEADER;
 
-\copy ntl_monthly(cell_id, ntl_min, ntl_max, ntl_mean, ntl_median, ntl_sum,
+\COPY ntl_monthly(cell_id, ntl_min, ntl_max, ntl_mean, ntl_median, ntl_sum,
                   pixel_count, raster_filename, year, month, date)
-FROM '/Users/dmatekenya/My Drive (dmatekenya@gmail.com)/TEACHING/AIMS-DSCBI/data/tmp-db-data/merged-zonal-stats-2012-2024.csv'
+FROM '/Users/dmatekenya/My Drive (dmatekenya@gmail.com)/TEACHING/AIMS-DSCBI/data/tmp-db-data/ntl-monthly-2012-2024.csv'
 CSV HEADER;
