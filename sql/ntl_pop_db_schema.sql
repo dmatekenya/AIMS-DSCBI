@@ -9,7 +9,8 @@ CREATE TABLE cells (
 
 -- Population 
 CREATE TABLE pop (
-    cell_id TEXT PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
+    cell_id TEXT REFERENCES cells(cell_id),
     elderly_60 REAL,
     general_pop REAL,
     children_under5 REAL,
