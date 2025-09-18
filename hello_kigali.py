@@ -18,7 +18,7 @@ app = FastAPI(
 @app.get("/")
 def read_root():
     """Welcome message - simplest possible endpoint"""
-    return {"message": "Welcome to Kigali!"}
+    return {"message": "Welcome to Nyagatare"}
 
 
 # ===================================================
@@ -44,7 +44,7 @@ def say_hello(name: str):
 def greet_person(
     name: str = Query(..., description="Person's name"),
     age: Optional[int] = Query(None, description="Person's age"),
-    city: Optional[str] = Query("Unknown", description="Person's city")
+    city: Optional[str] = Query("Kigali", description="Person's city")
 ):
     """Greet a person with optional details"""
     greeting = f"Hello {name}!"
