@@ -2,6 +2,8 @@ from fastapi import FastAPI, Query, Path
 from typing import Optional
 from datetime import datetime
 
+
+
 # Create FastAPI application
 app = FastAPI(
     title="Hello World API",
@@ -9,19 +11,35 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Basic endpoint - no parameters
+
+# ==========================================================   
+# BASIC ENDPOINT - NO PARAMETERS- WILL SHOW "HELLO WORLD!" 
+# =========================================================
 @app.get("/")
 def read_root():
     """Welcome message - simplest possible endpoint"""
-    return {"message": "Hello World!"}
+    return {"message": "Welcome to Kigali!"}
 
-# Endpoint with path parameter
+
+# ===================================================
+# ENDPOINT WITH PATH PARAMETER
+# ===================================================
+# This means the URL includes a variable part (here: {name})
+# Example: calling /hello/Alice will pass "Alice" as the `name` argument
 @app.get("/hello/{name}")
 def say_hello(name: str):
     """Say hello to a specific person"""
     return {"message": f"Hello {name}!"}
 
-# Endpoint with query parameters
+
+# ======================================================
+# ENDPOINT WITH QUERY PARAMETERS
+# ======================================================
+# Unlike path parameters, query parameters are passed after the "?" in the URL.
+# Example: /greet?name=Alice&age=25&city=Kigali
+# - "name" is required (Query(...))
+# - "age" is optional (defaults to None if not provided)
+# - "city" is optional with a default value of "Unknown"
 @app.get("/greet")
 def greet_person(
     name: str = Query(..., description="Person's name"),
