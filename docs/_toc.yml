@@ -43,6 +43,8 @@ parts:
           title: Assignment 1 Solutions
         - file: notebooks/assignments/assignment-2.ipynb
           title: Assignment 2
+        - file: notebooks/assignments/assignment-2-solutions.ipynb
+          title: Assignment 2 Solutions
         - file: notebooks/assignments/assignment-3.md
           title: Assignment 3
           sections:
@@ -65,6 +67,18 @@ parts:
           title: Data Processing with Pandas
         - file: notebooks/module-2/03-stats-analysis-with-python.ipynb
           title: Statistical Analysis with Python
+    - file: notebooks/module-5/README.md
+      title: Module 5
+      sections:
+        - file: notebooks/module-5/01-connecting-to-databases.ipynb
+          title: Connecting to Databases with Python
+        - file: notebooks/module-5/02-intro-to-APIs.ipynb
+          title: Introduction to APIs
+    - file: notebooks/helper/README.md
+      title: Helper Notebooks
+      sections:
+        - file: notebooks/helpers/download-ntl.ipynb
+          title: Download NTL Data
 
 - caption: Data Use Cases
   chapters:
