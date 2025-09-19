@@ -44,14 +44,16 @@ data = [
         "age": 30,
         "city": "Kigali",
         "country": "Rwanda",
-        "marital_status": "Guess"
+        "marital_status": "Guess",
+        "children": 2
     },
     {
         "name": "Donald",
         "age": 20,
         "city": "Kigali",
         "country": "Rwanda",
-        "marital_status": "Happily Married"
+        "marital_status": "Happily Married",
+        "children": 0
     }
 ]
 
@@ -60,7 +62,8 @@ data = [
 def get_trainee_info(
     name: str = Query(..., description="Person's name (required)"),
     marital_status: Optional[bool] = Query(False, description="Include marital status"),
-    age: Optional[bool] = Query(False, description="Include age")
+    age: Optional[bool] = Query(False, description="Include age"),
+    children: Optional[bool] = Query(False, description="Include number of children")
 ):
     """
     Return trainee info:
@@ -70,6 +73,7 @@ def get_trainee_info(
     """
     # Find the person
     person = next((p for p in data if p["name"].lower() == name.lower()), None)
+    print(person)
     if not person:
         raise HTTPException(status_code=404, detail="Person not found")
 
@@ -85,6 +89,9 @@ def get_trainee_info(
         response["marital_status"] = person["marital_status"]
     if age:
         response["age"] = person["age"]
+    
+    if children:
+        response["number_of_children"] = person["children"]
 
     return {"Trainee-Info": response}
 
@@ -98,11 +105,18 @@ def get_trainee_info(
 # http://localhost:8000/trainees?name=Denise&marital_status=true&age=true&children=true
 # http://localhost:8000/trainees?name=Donald&marital_status=true&age=true&children=true
 
+
+# ==========================================================
+# RETURNING DATA -ALL CELLS FROM CSV
+# ==========================================================
+
 @app.get("/cells")
 def list_cells():
     df = pd.read_csv(DATA_PATH)
-    return df.to_dict(orient="records")
 
+    dict_from_pandas = df.to_dict(orient="records")
+
+    return dict_from_pandas
 
 
 # ==========================================================
@@ -116,9 +130,10 @@ def get_cells_by_province_path(province_name: str):
       /cells/province/Kigali
     """
     df = pd.read_csv(DATA_PATH)
-    filtered = df[df["province_name"].str.lower() == province_name.lower()]
-    return filtered.to_dict(orient="records")
 
+    filtered = df[df["province_name"].str.lower() == province_name.lower()]
+
+    return filtered.to_dict(orient="records")
 
 # ==========================================================
 # RETURN CELLS BY PROVINCE - QUERY PARAMETER
@@ -136,6 +151,7 @@ def get_cells_by_province_query(
     df = pd.read_csv(DATA_PATH)
     if province_name:
         df = df[df["province_name"].str.lower() == province_name.lower()]
+    
     return df.to_dict(orient="records")
 
 # ACCESS THE APP AND SEE THE RESULTS FOR YOURSELF!
