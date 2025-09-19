@@ -38,15 +38,15 @@ parts:
       title: Assignments
       sections:
         - file: notebooks/assignments/assignment-1.ipynb
-          title: Assignment 1
+          title: Assignment-1
         - file: notebooks/assignments/assignment-1-solutions.ipynb
           title: Assignment 1 Solutions
         - file: notebooks/assignments/assignment-2.ipynb
-          title: Assignment 2
+          title: Assignment-2
         - file: notebooks/assignments/assignment-2-solutions.ipynb
-          title: Assignment 2 Solutions
+          title: Assignment-2 Solutions
         - file: notebooks/assignments/assignment-3.md
-          title: Assignment 3
+          title: Assignment-3
           sections:
             - file: notebooks/assignments/assignment-3-zonal-stats.ipynb
               title: Geospatial Environment
@@ -82,7 +82,13 @@ parts:
 
 - caption: Data Use Cases
   chapters:
-    - file: projects.md
+    - file: participants-projects/about-projects.md
+    - file: participants-projects/projects-list.md
+
+- caption: 🚀 Starter Kits & Templates
+  chapters:
+    - file: starter-kits/api-development.md
+    - file: starter-kits/llm-chatbots.md
 
 - caption: Additional Resources
   numbered: false
