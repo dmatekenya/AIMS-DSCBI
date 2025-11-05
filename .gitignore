@@ -99,3 +99,6 @@ _build/
 
 # setuptools-scm/
 src/*/_version.py
+
+# Virtual environments
+.venv*/
