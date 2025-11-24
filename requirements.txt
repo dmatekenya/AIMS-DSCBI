@@ -111,7 +111,7 @@ pooch==1.8.2
 proglog==0.1.12
 prometheus_client==0.22.1
 prompt_toolkit==3.0.51
-propcache==0.3.2
+propcache==0.4.1
 psutil==7.0.0
 ptyprocess==0.7.0
 pure_eval==0.2.3
