@@ -130,7 +130,7 @@ pytz==2025.2
 PyYAML==6.0.2
 pyzmq==27.0.2
 referencing==0.36.2
-regex==2025.7.34
+regex==2025.11.3
 requests==2.32.5
 requests-toolbelt==1.0.0
 rfc3339-validator==0.1.4
