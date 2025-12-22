@@ -33,7 +33,7 @@ chromadb==0.5.17                # simple, file-backed vector store for workshops
 pypdf==6.0.0                    # lightweight PDF text extraction
 pymupdf==1.24.10                # stronger PDF parsing when pypdf struggles
 pdfminer.six==20231228          # OPTIONAL: alternative PDF text extractor
-beautifulsoup4==4.13.4          # OPTIONAL: for HTML pages to text
+beautifulsoup4==4.14.2          # OPTIONAL: for HTML pages to text
 
 # ---- Notebook runtime (keep it light)
 ipykernel==6.30.1
